@@ -5,5 +5,3 @@ class Solution:
         if len(arr) % 2 == 1:
             return arr[int(i)]
         return (arr[int(i)]+arr[int(ceil(i))]) / 2
-
-
